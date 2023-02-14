@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table creation</title>
+
+  <style>
+    table,th,td{
+      border:2px solid rgb(255, 0, 174);
+      text-align: center;
+      padding:10px ;
+    }
+
+    table{
+      width: 100%;
+    }
+
+    #mytable{
+      background-color: rgb(200, 237, 100);
+
+    }
+      /* parent child  */
+    #mytable tbody{
+      background-color: blueviolet;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Simple table</h1>
+  <table id="mytable">
+    <thead>
+      <tr>
+        <th>SL.No</th>
+        <th>Name</th>
+        <th>Company</th>
+        <th>Designation</th>
+      </tr>
+    </thead>
+    <!-- //end of table header  -->
+
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>John Doe</td>
+        <td>Google</td>
+        <td>Manager</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>Jenny Doe</td>
+        <td>Walmart</td>
+        <td>Senior developer</td>
+      </tr>
+
+      
+      <tr>
+        <td>3</td>
+        <td>Swapnil Selokar</td>
+        <td>Infosys</td>
+        <td>Manager</td>
+      </tr>
+
+      <tr>
+        <td>4</td>
+        <td>Sohan</td>
+        <td>Persistent</td>
+        <td>Senior Test engineer</td>
+      </tr>
+
+      <tr>
+        <td>5</td>
+        <td>Pavan</td>
+        <td>Amazon</td>
+        <td>SDE-1</td>
+      </tr> 
+    </tbody>
+  </table>
+</body>
+</html>
